@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+}
+
+.saurabh{
+    background-color: rgb(124, 167, 211);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px 0;
+    list-style: none;
+   
+    
+}
+li{
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-top: solid 1px; 
+    padding: 10px;
+}
+.one, .two, .three, .four{
+    display: none;
+    width: fit-content;
+    
+    /* */
+}
+
+.dropdown:hover .one, .drop:hover .two
+{
+    display: block;
+}
+.down:hover .three, .dd:hover .four{
+    display: block;
+}
